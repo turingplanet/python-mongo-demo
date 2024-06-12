@@ -40,14 +40,14 @@ To use the Alpha Vantage API for parsing stock data, follow these steps:
 2. Set the `API_KEY` in the `secret.yml` file.
 3. Run the following command:
    ```shell
-   poetry run python3 run stock_info_parser/pipeline.py
+   poetry run python3 stock_info_parser/pipeline.py
    ```
 
 ### Using Public CSV Data
 Alternatively, you can use public CSV data to load stock information. Follow these steps:
 1. Run the following command to grab data from GitHub:
    ```shell
-   poetry run python3 run stock_info_parser/github_pipeline.py
+   poetry run python3 stock_info_parser/github_pipeline.py 
    ```
 
 ## MongoDB Atlas
