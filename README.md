@@ -22,6 +22,13 @@ $ brew services stop mongodb-community@7.0
 ## Poetry Setup
 This project uses Poetry for dependency management. Please refer to the [Poetry Project Setup](https://github.com/turingplanet/python-project-setup-tutorial/blob/main/comprehensive_set_up.md#poetry-project-setup) section in the Python Project Setup Tutorial for instructions on how to set up Poetry.
 
+Install the project dependencies using Poetry:
+```shell
+git clone <repository_url>
+cd <project_directory>
+poetry install
+```
+
 ## Project Structure
 - `mongo_demo`: Contains the modules for simple MongoDB connection.
 - `stock_info_parser`: Contains modules to grab stock information and store it in MongoDB.
